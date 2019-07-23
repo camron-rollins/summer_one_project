@@ -1,0 +1,151 @@
+<body {
+        font-family: 'Lato', serif;
+      }
+h1{
+  margin:0;
+  padding:0;
+  font-weight:bold;
+  letter-spacing:5px;
+  font-size:5rem;
+}
+.row{
+  padding: 5rem 0;
+}
+.subtitle{
+  letter-spacing:5px;
+  font-size:5rem;
+}
+.hero{
+  background: url('https://scontent-sjc3-1.cdninstagram.com/vp/407e530f6cd65b7d17ec8dd977c07c58/5DB2CA36/t51.2885-15/sh0.08/e35/s640x640/59612216_329315074654369_2733994215527695981_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com ');
+  align-content:center;
+  background-position:50%;
+  background-size:cover;
+  min-height:1600px;
+  padding:5rem 3rem 3rem 0rem;
+  text-align:center;
+    color: white;
+  position:relative;
+  width: 1450px;
+
+}
+.hero-icon a{
+  color:white;
+  font-size:3rem;
+}
+nav{
+  margin-bottom:0 !important;
+}
+.glyphicon-chevron-down{
+  padding:1rem;
+  border: .5rem solid white;
+  border-radius:50%;
+}
+.title{
+  color: #123B65;
+  text-align:center;
+  font-size:3rem;
+  font-weight:bold;
+  letter-spacing:1rem;
+  padding-bottom:2rem;
+}
+.logo{
+  color: #FFFFFF !important;
+}
+li a{
+  color:#FFFFFF;
+}
+.decor::after{
+  content: "/>"
+}
+.decor::before{
+  content: "<"
+}
+.paragraph{
+  font-size:2rem;
+  letter-spacing:.2rem;
+  padding:0 10rem;
+}
+#who{
+  background:#FFFFFF;
+}
+#projects{
+}
+.full{
+  width:100% !important;
+}
+.col-right{
+  background: url('https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/15966102_10154546039573705_802487048072900782_n.jpg?oh=c7afcbfd2e4905ad66ca81a5e617ebc5&oe=592FC293');
+}
+.navbar{
+  background:#2c3e50 !important;
+  border-color:#34495e;
+  border-radius:0;
+}
+.card{
+  margin:5rem;
+  border: 5px solid #34495e;
+}
+
+.card-footer p{
+  padding:2rem 3rem;
+  font-size:1.5rem;
+}
+.watch{
+  text-decoration:none !important;
+  padding:.6rem 4.5rem;
+  border: 1px solid #2980b9;
+  background: #2980b9;
+  color:white;
+}
+.tech-logo .img-responsive{
+  width:150px;
+}
+.mail{
+  color: #34495e;
+  border: 4px solid #34495e;
+  font-size: 4rem;
+  letter-spacing:10px;
+  font-weight:bold;
+  text-decoration: none;
+  padding: 1rem 3rem;
+}
+.mail:link, .mail:visited{
+  text-decoration:none;
+}
+.space-h1{
+  margin: 4rem 0;
+}
+.footer{
+  background:#2c3e50;
+  color: #FBFBFB;
+  padding: 1rem 2rem;
+}
+#why{
+  background:#34495e;
+  color:white;
+}
+
+  @media (max-width:640px) {
+    h1{
+      font-size:3rem;
+    }
+    .subtitle{
+      font-size:1.5rem;
+    }
+    .title{
+      font-size: 3rem;
+    }
+    .paragraph{
+      padding: 1rem 2rem;
+    }
+    .mail{
+      font-size:1.5rem;
+      letter-spacing:3px;
+    }
+}
+.home{
+  font-size:25px;
+}
+.hero{
+  padding-top:385px;
+}
