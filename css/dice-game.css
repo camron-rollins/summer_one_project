@@ -1,0 +1,46 @@
+body {
+    position: relative;
+}
+
+.wrapper {
+    width: 250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+}
+.navbar{
+  background:#2c3e50 !important;
+  border-color:#34495e;
+  border-radius:0;
+}
+#status {
+    position: absolute;
+    top: 5rem;
+		left: 50%;
+		transform: translateX(-50%);
+    min-width: 400px;
+    margin-top: 20px;
+		text-align: center;
+}
+
+.dice {
+    width: 40px;
+    float: left;
+    background-color: grey;
+    border: 5px solid black;
+    padding: 50px;
+    font-size: 39px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.dice-roll {
+    cursor: pointer;
+    text-transform: capitalize;
+}
