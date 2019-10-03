@@ -4,17 +4,21 @@
 <head>
   <meta charset="utf-8">
   <title>Flashcard Game</title>
-  <link rel="stylesheet" href="flashcard.css">
-  <link rel="icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</head>
-</head>
-<body>
-  <link href="css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/flashcard.css">
+
+
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,334 +44,145 @@
           <li><a href="dice-game.html">Dice Game</a></li>
           <li><a href="terms_page.html">Terms</a></li>
           <li><a href="reflections.html">Reflections</a></li>
-          <li><a href="Drum-Kit-Completed/drumkit.html">Drumkit Game</a></li>
+          <li><a href="drumkit.html">Drumkit Game</a></li>
           <li><a href="flashcard.html">Flashcards</a></li>
+          <li><a href="simon_game.html">Simon Says</a></li>
         </ul>
       </div>
     </div>
   </nav><br><br><br><br><br><br>
   <div class="flip-container" data-isfront='true' id='card1'>
-  	<div class="flipper">
-  		<div class="front">
-  			<!-- front content -->
-  			What is Javascript
-  			<footer>
+    <div class="flipper">
+      <div class="front">
+        <!-- front content -->
+        What is Javascript
+        <footer>
 
-  			</footer>
-  		</div>
-  		<div class="back">
-  			<!-- back content -->
-  			<div class="defintion">
-  			JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. JavaScript has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
-  			</div>
-  		</div>
-  	</div>
-  </div>
-
-  <div class="flip-container" data-isFront='true' id='card2'>
-  	<div class="flipper">
-  		<div class="front">
-  			<!-- front content -->
-  			What is html
-  		</div>
-  		<div class="back">
-  			<!-- back content -->
-  			<div class="defintion">
-  			Description Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
-  			</div>
-  		</div>
-  	</div>
-  </div>
-
-  <button onclick='words()'>Words</button>
-  <button onclick='defintions()'>Defintions</button>
-  <div class="flip-container" data-isfront='true' id='card1'>
-  	<div class="flipper">
-  		<div class="front">
-  			<!-- front content -->
-  			What is CSS
-  			<footer>
-
-  			</footer>
-  		</div>
-  		<div class="back">
-  			<!-- back content -->
-  			<div class="defintion">
-  			Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
-  			</div>
-  		</div>
-  	</div>
-  </div>
-
-  <div class="flip-container" data-isFront='true' id='card2'>
-  	<div class="flipper">
-  		<div class="front">
-  			<!-- front content -->
-  		What is Atom
-  		</div>
-  		<div class="back">
-  			<!-- back content -->
-  			<div class="defintion">
-  			Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub. Atom is a desktop application built using web technologies.
-  			</div>
-  		</div>
-  	</div>
-  </div>
-
-  <button onclick='words()'>Words</button>
-  <button onclick='defintions()'>Defintions</button>
-  <button onclick='words()'>Words</button>
-  <button onclick='defintions()'>Defintions</button>
-  <div class="flip-container" data-isfront='true' id='card1'>
-  	<div class="flipper">
-  		<div class="front">
-  			<!-- front content -->
-  			What is Terminal
-  			<footer>
-
-  			</footer>
-  		</div>
-  		<div class="back">
-  			<!-- back content -->
-  			<div class="defintion">
-  			Beneath the surface of OS X is an entire world that you can access only from the command line. Terminal (in your /Applications/Utilities folder) is the default gateway to that command line on a Mac. With it, instead of pointing and clicking, you type your commands and your Mac does your bidding.
-  			</div>
-  		</div>
-  	</div>
-  </div>
-
-  <div class="flip-container" data-isFront='true' id='card2'>
-  	<div class="flipper">
-  		<div class="front">
-  			<!-- front content -->
-  			What is Github
-  		</div>
-  		<div class="back">
-  			<!-- back content -->
-  			<div class="defintion">
-  			GitHub is an American company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft, which acquired the company in 2018 for $7.5 billion.
-  			</div>
-  		</div>
-  	</div>
-  </div>
-
-  <button onclick='words()'>Words</button>
-  <button onclick='defintions()'>Defintions</button>
-  <button onclick='words()'>Words</button>
-  <button onclick='defintions()'>Defintions</button>
-  <div class="flip-container" data-isfront='true' id='card1'>
-  	<div class="flipper">
-  		<div class="front">
-  			<!-- front content -->
-  			hello
-  			<footer>
-  				asdf
-  			</footer>
-  		</div>
-  		<div class="back">
-  			<!-- back content -->
-  			<div class="defintion">
-  			howdy this is a long defination
-  			</div>
-  		</div>
-  	</div>
-  </div>
-
-  <div class="flip-container" data-isFront='true' id='card2'>
-  	<div class="flipper">
-  		<div class="front">
-  			<!-- front content -->
-  			hello
-  		</div>
-  		<div class="back">
-  			<!-- back content -->
-  			<div class="defintion">
-  			howdy this is a long defination
-  			</div>
-  		</div>
-  	</div>
-  </div>
-
-  <button onclick='words()'>Words</button>
-  <button onclick='defintions()'>Defintions</button>
-
-  <script src="flashcard.js" charset="utf-8"></script>
-<link href="css/style.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand decor logo" href="#">MV</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="home_page.html">Home</a></li>
-        <li><a href="index.html">About me</a></li>
-        <li><a href="index.html">Videos</a></li>
-        <li><a href="index.html">Why Me?</a></li>
-        <li><a href="index.html">Let's do it!</a></li>
-        <li><a href="my_brothers_page.html">My Brothers</a></li>
-        <li><a href="dice-game.html">Dice Game</a></li>
-        <li><a href="terms_page.html">Terms</a></li>
-        <li><a href="reflections.html">Reflections</a></li>
-        <li><a href="Drum-Kit-Completed/drumkit.html">Drumkit Game</a></li>
-      </ul>
+        </footer>
+      </div>
+      <div class="back">
+        <!-- back content -->
+        <div class="defintion">
+          JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. JavaScript has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class
+          functions.
+        </div>
+      </div>
     </div>
   </div>
-</nav><br><br><br><br><br><br>
-<div class="flip-container" data-isfront='true' id='card1'>
-	<div class="flipper">
-		<div class="front">
-			<!-- front content -->
-			What is Javascript
-			<footer>
 
-			</footer>
-		</div>
-		<div class="back">
-			<!-- back content -->
-			<div class="defintion">
-			JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that conforms to the ECMAScript specification. JavaScript has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
-			</div>
-		</div>
-	</div>
-</div>
+  <div class="flip-container" data-isFront='true' id='card2'>
+    <div class="flipper">
+      <div class="front">
+        <!-- front content -->
+        What is html
+      </div>
+      <div class="back">
+        <!-- back content -->
+        <div class="defintion">
+          Description Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="flip-container" data-isFront='true' id='card2'>
-	<div class="flipper">
-		<div class="front">
-			<!-- front content -->
-			What is html
-		</div>
-		<div class="back">
-			<!-- back content -->
-			<div class="defintion">
-			Description Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
-			</div>
-		</div>
-	</div>
-</div>
+  <button onclick='words()'>Words</button>
+  <button onclick='defintions()'>Defintions</button>
+  <div class="flip-container" data-isfront='true' id='card1'>
+    <div class="flipper">
+      <div class="front">
+        <!-- front content -->
+        What is CSS
+        <footer>
 
-<button onclick='words()'>Words</button>
-<button onclick='defintions()'>Defintions</button>
-<div class="flip-container" data-isfront='true' id='card1'>
-	<div class="flipper">
-		<div class="front">
-			<!-- front content -->
-			What is CSS
-			<footer>
+        </footer>
+      </div>
+      <div class="back">
+        <!-- back content -->
+        <div class="defintion">
+          Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+        </div>
+      </div>
+    </div>
+  </div>
 
-			</footer>
-		</div>
-		<div class="back">
-			<!-- back content -->
-			<div class="defintion">
-			Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
-			</div>
-		</div>
-	</div>
-</div>
+  <div class="flip-container" data-isFront='true' id='card2'>
+    <div class="flipper">
+      <div class="front">
+        <!-- front content -->
+        What is Atom
+      </div>
+      <div class="back">
+        <!-- back content -->
+        <div class="defintion">
+          Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub. Atom is a desktop application built using web
+          technologies.
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="flip-container" data-isFront='true' id='card2'>
-	<div class="flipper">
-		<div class="front">
-			<!-- front content -->
-		What is Atom
-		</div>
-		<div class="back">
-			<!-- back content -->
-			<div class="defintion">
-			Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub. Atom is a desktop application built using web technologies.
-			</div>
-		</div>
-	</div>
-</div>
+  <button onclick='words()'>Words</button>
+  <button onclick='defintions()'>Defintions</button>
+  <button onclick='words()'>Words</button>
+  <button onclick='defintions()'>Defintions</button>
+  <div class="flip-container" data-isfront='true' id='card1'>
+    <div class="flipper">
+      <div class="front">
+        <!-- front content -->
+        What is Terminal
+        <footer>
 
-<button onclick='words()'>Words</button>
-<button onclick='defintions()'>Defintions</button>
-<button onclick='words()'>Words</button>
-<button onclick='defintions()'>Defintions</button>
-<div class="flip-container" data-isfront='true' id='card1'>
-	<div class="flipper">
-		<div class="front">
-			<!-- front content -->
-			What is Terminal
-			<footer>
+        </footer>
+      </div>
+      <div class="back">
+        <!-- back content -->
+        <div class="defintion">
+          Beneath the surface of OS X is an entire world that you can access only from the command line. Terminal (in your /Applications/Utilities folder) is the default gateway to that command line on a Mac. With it, instead of pointing and
+          clicking, you type your commands and your Mac does your bidding.
+        </div>
+      </div>
+    </div>
+  </div>
 
-			</footer>
-		</div>
-		<div class="back">
-			<!-- back content -->
-			<div class="defintion">
-			Beneath the surface of OS X is an entire world that you can access only from the command line. Terminal (in your /Applications/Utilities folder) is the default gateway to that command line on a Mac. With it, instead of pointing and clicking, you type your commands and your Mac does your bidding.
-			</div>
-		</div>
-	</div>
-</div>
+  <div class="flip-container" data-isFront='true' id='card2'>
+    <div class="flipper">
+      <div class="front">
+        <!-- front content -->
+        What is Github
+      </div>
+      <div class="back">
+        <!-- back content -->
+        <div class="defintion">
+          GitHub is an American company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft, which acquired the company in 2018 for $7.5 billion.
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="flip-container" data-isFront='true' id='card2'>
-	<div class="flipper">
-		<div class="front">
-			<!-- front content -->
-			What is Github
-		</div>
-		<div class="back">
-			<!-- back content -->
-			<div class="defintion">
-			GitHub is an American company that provides hosting for software development version control using Git. It is a subsidiary of Microsoft, which acquired the company in 2018 for $7.5 billion.
-			</div>
-		</div>
-	</div>
-</div>
+  <button onclick='words()'>Words</button>
+  <button onclick='defintions()'>Defintions</button>
+  <button onclick='words()'>Words</button>
+  <button onclick='defintions()'>Defintions</button>
+  <div class="flip-container" data-isfront='true' id='card1'>
+    <div class="flipper">
+      <div class="front">
+        <!-- front content -->
+        The Hidden Genius Project
+        <footer>
 
-<button onclick='words()'>Words</button>
-<button onclick='defintions()'>Defintions</button>
-<button onclick='words()'>Words</button>
-<button onclick='defintions()'>Defintions</button>
-<div class="flip-container" data-isfront='true' id='card1'>
-	<div class="flipper">
-		<div class="front">
-			<!-- front content -->
-			hello
-			<footer>
-				asdf
-			</footer>
-		</div>
-		<div class="back">
-			<!-- back content -->
-			<div class="defintion">
-			howdy this is a long defination
-			</div>
-		</div>
-	</div>
-</div>
+        </footer>
+      </div>
+      <div class="back">
+        <!-- back content -->
+        <div class="defintion">
+          The Hidden Genius Project trains and mentors black male youth in technology creation, entrepreneurship, and leadership skills to transform their lives and communities.
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="flip-container" data-isFront='true' id='card2'>
-	<div class="flipper">
-		<div class="front">
-			<!-- front content -->
-			hello
-		</div>
-		<div class="back">
-			<!-- back content -->
-			<div class="defintion">
-			howdy this is a long defination
-			</div>
-		</div>
-	</div>
-</div>
 
-<button onclick='words()'>Words</button>
-<button onclick='defintions()'>Defintions</button>
-  <script src="flashcard.js" charset="utf-8"></script>
+  <button onclick='words()'>Words</button>
+  <button onclick='defintions()'>Defintions</button>
+  <script src="js/flashcard.js" charset="utf-8"></script>
 </body>
